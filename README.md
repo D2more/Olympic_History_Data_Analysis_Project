@@ -43,10 +43,10 @@ Immerse yourself in the pulse of Olympic greatness with this dataset spanning 12
 
 ### Data Analysis
 
-˜˜˜ sql
+```sql
 SELECT COUNT(DISTINCT games) as total_olympic_games
 FROM olympics_dat.athlete_events;
-˜˜˜
+```
 
 
 
