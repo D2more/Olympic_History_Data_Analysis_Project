@@ -6,5 +6,5 @@ Immerse yourself in the pulse of Olympic greatness with this dataset spanning 12
 
 
 ## Acknowledgement
-This dataset was downloaded from Kaggle from the user [rgriffin](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results/data), the user got it from [www.sports-reference.com]([www.sports-reference.com](https://www.sports-reference.com/). It was scraped and wrangle using  R. I'm just using this real data to write some SQL queries because it makes the data easier to understand. It's like telling stories about the Olympics using numbers.
+This dataset was downloaded from Kaggle from the user [rgriffin](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results/data), the user got it from [www.sports-reference.com](www.sports-reference.com](https://www.sports-reference.com/). It was scraped and wrangle using  R. I'm just using this real data to write some SQL queries because it makes the data easier to understand. It's like telling stories about the Olympics using numbers.
 Also, I want to say I did another project where I cleaned up some different raw and messy data using R, Excel, and SQL to make the data better so we could ask it questions too. It's like turning a jumbled-up puzzle into a picture we can all understand. 
