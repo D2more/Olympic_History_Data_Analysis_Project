@@ -1,6 +1,18 @@
 # About Dataset
 
-## Context
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Acknowledgement](#acknowledgement)
+- [Content and Key identifier](#content-and-key-identifiers)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- 
+
+## Project Overview
 
 Immerse yourself in the pulse of Olympic greatness with this dataset spanning 120 years of athletic excellence. From the historic inaugural games in Athens 1896 to the exhilirating spectacle of Rio 2016, the dataset encapsulates the life stories and medal triumphs of thousands of athletes. Explore the rich tapestry of the Olympic journey, from the early pioneering years to the modern era, through comprehensive bio data and detailed medal results. Discover the narratives, trends, and transformative moments that have defined over a century of the world's most celebrated sporting event. This dataset is your key to unlocking the secrets and stories behind the medals, offering a nuanced glimpse into the evolution of the Olympic Games.
 
@@ -10,6 +22,24 @@ Immerse yourself in the pulse of Olympic greatness with this dataset spanning 12
   Also, I want to say I did another project where I cleaned up some different raw and messy data using R, Excel, and SQL to make the data better so we could ask it questions too. It's like turning a jumbled-up puzzle into a picture we can all understand. 
 
 
+  ## Content and Key identifiers
+  1. ID - Unique number for each athlete
+  2. Name - Athlete's name
+  3. Sex - M or F
+  4. Age - Integer
+  5. Height - In centimeters
+  6. Weight - In kilograms
+  7. Team - Team name
+  8. NOC - National Olympic Committee 3-letter code
+  9. Games - Year and season
+  10. Year - Integer
+  11. Season - Summer or Winter
+  12. City - Host city
+  13. Sport - Sport
+  14. Event - Event
+  15. Medal - Gold, Silver, Bronze, or NA
+
+
 ### Data Sources
   The primary dataset used for this analysis are two csv files “athlete_events.csv“ and “noc_regions.csv“. Data (sample data) in these files would look as below:
 
@@ -17,6 +47,7 @@ Immerse yourself in the pulse of Olympic greatness with this dataset spanning 12
 ### Tools
 - Google BigQuery - Data Analysis
 - Tableau Public - Creating Visualization Reports
+
 
 ### Exploratory Data Analysis
 1. How many olympics games have been held?
@@ -42,10 +73,16 @@ Immerse yourself in the pulse of Olympic greatness with this dataset spanning 12
 
 
 ### Data Analysis
+Viewing of the table
+```sql
+SELECT * 
+FROM olympics_data.athlete_events;
+```
 
+How many olympics games have been held?
 ```sql
 SELECT COUNT(DISTINCT games) as total_olympic_games
-FROM olympics_dat.athlete_events;
+FROM olympics_data.athlete_events;
 ```
 
 
