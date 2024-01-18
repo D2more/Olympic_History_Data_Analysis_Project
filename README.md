@@ -2,7 +2,7 @@
 
 ## Context
 
-Immerse yourself in the pulse of Olympic greatness with this dataset spanning 120 years of athletic excellence. From the historic inaugural games in Athens 1896 to the exhilirating spectacle of Rio 2016, the dataset encapsulates the life stories and medal triumphs of thousands of athletes. Discover the rich tapestry of the Olympic journey, from the early pioneering years to the modern era, through comprehensive bio data and detailed medal results. Unearth the narratives, trends, and transformative moments that have defined over a century of the world's most celebrated sporting event. This dataset is your key to unlocking the secrets and stories behind the medals, offering a nuanced glimpse into the evolution of the Olympic Games.
+Immerse yourself in the pulse of Olympic greatness with this dataset spanning 120 years of athletic excellence. From the historic inaugural games in Athens 1896 to the exhilirating spectacle of Rio 2016, the dataset encapsulates the life stories and medal triumphs of thousands of athletes. Explore the rich tapestry of the Olympic journey, from the early pioneering years to the modern era, through comprehensive bio data and detailed medal results. Discover the narratives, trends, and transformative moments that have defined over a century of the world's most celebrated sporting event. This dataset is your key to unlocking the secrets and stories behind the medals, offering a nuanced glimpse into the evolution of the Olympic Games.
 
 
 ## Acknowledgement
