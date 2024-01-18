@@ -10,7 +10,6 @@
 - [Tools](#tools)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
-- 
 
 ## Project Overview
 
